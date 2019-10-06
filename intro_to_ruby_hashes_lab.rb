@@ -33,7 +33,7 @@ end
 
 def read_from_hash(hash, key)
   hash = {
-    key => "Steve"
+    key => ""
   }
   return hash[key]
 end

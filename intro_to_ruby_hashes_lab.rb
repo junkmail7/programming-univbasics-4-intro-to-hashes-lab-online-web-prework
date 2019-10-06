@@ -34,7 +34,7 @@ end
 def read_from_hash(hash, key)
   variable=""
   hash = {
-    key => :variable
+    key => variable
   }
   return hash[key]
 end
